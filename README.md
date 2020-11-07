@@ -1,6 +1,8 @@
 # Benue1-20-Hack2🚩
 Team Benue I 2020, Hackathon 2 Repository
+
 This README explains how to get started with this repository.
+
 This repository contains code written by Team Benue 1 for the UK-NG Tech Hub/Dufuna-CodeCamp 2020 second Hackathon.
 
 # How to get started
