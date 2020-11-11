@@ -1,8 +1,48 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+.body{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Navbar*/
+.navbar{
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFA8B9;
+}
+.header{
+    display: flex;
+    text-decoration:none;
+}
+.header li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 86px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.header li a{
+    text-decoration: none;
+    color:black;
+}
+.header li a:hover{
+    color: #A28089;
+    font-family: 'Raleway', sans-serif;
+}
+.logo{
+    padding-left: 30px;
+}
+.logo img{
+    width:80px;
+}
 header
 {
     background-color: chartreuse;
 }
-
 body
 {
     margin: 0;
