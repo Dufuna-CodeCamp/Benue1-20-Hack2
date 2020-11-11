@@ -8,10 +8,8 @@
 </head>
 <body>
 <header> 
-	<nav>
-        <div>
-            <img src="../images/career_tech_logo.jpeg" alt="">
-        </div>
+	<nav class="nav">
+    <img src="../images/career_tech_logo.jpeg" class="logo">
         <ul>
             <li><a href="../html/homepage.html">Home</a></li>
             <li><a href="../html-forms/waitlist.html">WaitList</a></li>
@@ -33,39 +31,49 @@
 		<li>
 		<figure>
 		<img src="../images/html.jpg">
-		<figcaption>HTML5 and CSS3 are essential high level programming language to acquire to function as a web developer.</figcaption>
+		<figcaption>HTML5 and CSS3 are essential high<br>level programming language.</figcaption>
 		</figure>
 		</li>
 		<li>
 		<figure>
 		<img src="../images/hadoop.png">
-		<figcaption>Hadoop is another essential programming language to acquire.</figcaption>
+		<figcaption>Hadoop is another essential programming<br>language to acquire.</figcaption>
 		</figure>
 		</li>
 		<li>
 		<figure>
 		<img src="../images/soft-skills.jpg">
-		<figcaption>Soft skills include analytical thinking, communication and teamwork skills needed in the Tech industry</figcaption>
+		<figcaption>Soft skills include analytical thinking,<br>communication and teamwork skills.</figcaption>
 		</figure>
 		</li>
 	</ul>
 </section>
 <footer>
-    <div>
-        <div>
-            <img src="../images/facebook-logo.jpg" alt="">
-            <img src="../images/twitter-logo.jpg" alt="">
-            <img src="../images/gmail-logo.jpg" alt="">
-            <img src="../images/youtube-logo.jpg" alt="">
+   <div class="footer1">
+        <div class="footer2">
+            <div class="footerlist">
+                <ul>
+                    <li><a href="../html-forms/contact-form.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-signup">
+                <h4>Sign up for our Newsletter</h4>
+                <input type="email" id="footer-email" name="email" placeholder="Enter your email address">
+                <input type="button" id="footer-submit" value="SUBMIT">
+            </div>
+            <div class="footer-connect">
+                <h4>CONNECT WITH US</h4>
+                <a href="https://www.facebook.com"><img src="../images/facebook-logo.jpg"></a>
+                <a href="https://www.twitter.com"><img src="../images/twitter-logo.jpg"></a>
+                <a href="https://www.gmail.com"><img src="../images/gmail-logo.jpg"></a>
+                <a href="https://www.youtube.com"><img src="../images/youtube-logo.jpg"></a>
+            </div>
         </div>
+        <p id="copy">&copy;2020Careertech</p>
     </div>
-    <p>Contact Us</p>
-    <div>
-        <p>Sign up for our Newsletter</p>
-        <input type="text" class="enter-email" placeholder="Enter your email address">
-        <button type="submit">SUBMIT</button>
-    </div>
-        <p>&copy;2020Careertech</p>
+</footer>
 </footer>
 </body>
 </html>

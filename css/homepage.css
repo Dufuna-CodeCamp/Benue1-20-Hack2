@@ -1,96 +1,95 @@
 /*Google font*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
-.body{
+body{
     padding:0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-image: url('../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg');
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 /* Navbar*/
-.navbar{
+.nav{
     padding: 10px 0;
     display: flex;
+    flex: 1 100%;
     justify-content: space-between;
     background-color: #FFA8B9;
 }
-.header{
+header{
     display: flex;
     text-decoration:none;
 }
-.header li{
+header li{
     display: inline-block;
     list-style-type: none;
     margin-right: 86px;
     font-size: 16px;
     line-height: 19px;
 }
-.header li a{
+header li a{
     text-decoration: none;
     color:black;
 }
-.header li a:hover{
+header li a:hover{
     color: #A28089;
     font-family: 'Raleway', sans-serif;
 }
 .logo{
     padding-left: 30px;
-}
-.logo img{
-    width:80px;
-
+    width: 80px;
 }
 /*body*/
-.content{
-    background-image: url('../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-}
-.quote{
-    font-size: 40px;
-    padding: 30px 400px 20px 400px;
-    margin: auto;
-    color: white;
-    text-align: center;
-}
 .quote q{
     font-family: 'Arvo', serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+.quote p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-left: 100px;
 }
 .cont-box{
-    background-color: white;
-    width: 1100px;
+    background-color: rgba(228, 233, 237, 0.5);
+    width: 90%;
     margin:0 auto 15px;
-    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.19);
     border-radius:5px;
     text-align: center;
+    justify-content: center;
 }
-.cont-box header{
+.cont-box h3{
     font-size: 40px;
     padding:12px ;
+    color: white;
 }
 .skills{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
 }
 .skills div{
-    margin: 30px;
+    margin: 20px 100px;
 }
 .skills div img{
     width: 300px;
-    height: 300px;
+    padding: 20px;
 }
 .skills div a{
     text-decoration: none;
-}
-.skills div a p{
-    font-size: 20px;
+    font-size: 30px;
     color: black;
 }
-.skills div a p:hover{
+.skills div a:hover{
     color: #A28089;
     font-family: 'Raleway', sans-serif;
 }
 .interest{
+    background-color: #FFA8B9;
     padding: 20px;
     text-align: center;
     font-size: 30px;
@@ -109,46 +108,60 @@
 .interest button:hover{
     background-color: #A28089;
     color: white;
-    border: 2px solid #A28089;
+    border: 2px solid ;
 }
 /*footer*/
-.connect{
-    display: flex;
-    padding-top: 20px;
-}
-.contactus{
-    padding:0 750px 0 100px;
-}
-.contactus p, .signup p{
-    margin-bottom: 10px;
-}
-.footer{
-    margin: 0;
-    text-align: center;
-    font-size: 22px;
+footer{
     background-color: #FFA8B9;
+    color: #A28089;
+    display: flex;
+    flex: 1 100%;
+    width: 100%;
+    align-content: center;
 }
-.footer #copy{
-    margin: 0;
-    font-size: 15px;
+footer ul li{
+    text-align: left;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
 }
-.signup button{
+.footerlist{
+    margin-right: 450px;
+}
+.footer-signup{
+        margin: auto;
+}
+#footer-email{
+    margin-top: 10px;
+    width: 250px;
     height: 30px;
-    width: 130px;
-    background-color:  #A28089;
-    border: 1px solid  #A28089;
-    font-size: 18px;
-    line-height: 12px;
-    font-family: 'Raleway', sans-serif;
-    border-radius: 4px;
 }
-.signup button:hover{
-    color: white;
+#footer-submit{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #FFA8B9;
+    color: #A28089;
 }
-.signup input{
-    height: 25px;
-    width: 170px;
+.footer-connect{
+    padding: 10px;
+    margin-left: 450px;
 }
-.signup input::placeholder{
-    font-family: 'Montserrat', sans-serif;
+.footer-connect .img{
+    height: 40px;
+    width: 40px;
+    padding: 7px;
+    border-radius: 15px;
+    }
+.footer1 p{
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+}
+.footer2{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: 1;
 }

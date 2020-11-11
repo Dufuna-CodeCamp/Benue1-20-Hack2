@@ -1,52 +1,72 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Waitlist-form</title>
-            <link rel="stylesheet" href="../CSS/waitlist.css">
-        </head>
-        <body>
-            <header>
-                <nav>
-                    <div>
-                        <img src="../images/career_tech_logo.jpeg" alt="">
-                    </div>
-                    <ul>
-                        <li><a href="../html/homepage.html">Home</a></li>
-                        <li><a href="../html-forms/waitlist.html">WaitList</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <section>
-                <div class="act">
-                    <img src ="..//waiting images.jpeg" alt="">
-                </div>
-                <div class="form">
-                    <form action="#" method="post" class="position-form">
-                        <div class="for-input">
-                            <label for= "Name">Name</label><br>
-                            <input type="text" name= "name" id = "name"> <br>
-                            <label for="email">Email</label><br>
-                            <input type="email" name="email" id="email"><br>
-                            <input type="submit" value= "Submit">
-                        </div>
-                    </form>
-                </div>
-            </section>
-            <footer>
-                <div class="footer">
-                    <p>Contact Us</p>
-                    <img src="../images/facebook-logo.jpg" alt="">
-                    <img src="../images/twitter-logo.jpg" alt="">
-                    <img src="../images/gmail-logo.jpg" alt="">
-                    <img src="../images/youtube-logo.jpg" alt="">
-                    <p>Sign up for our Newsletter</p>
-                    <input type="text" class="enter-email" placeholder="Enter your email address">
-                    <button type="submit">SUBMIT</button>
-                    <p>&copy;2020Careertech</p>
-                </div>
-            </footer>
-        </body>
-    </html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Waitlist-form</title>
+    <link rel="stylesheet" href="../css/waitlist.css">
+</head>
+<body>
+    <header>
+        <nav>
+        <nav class="nav">
+    <img src="../images/career_tech_logo.jpeg" class="logo">
+        <ul>
+            <li><a href="../html/homepage.html">Home</a></li>
+            <li><a href="../html-forms/waitlist.html">WaitList</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+<section>
+    <div class="act">
+        <img src ="../images/waiting images.jpeg" alt="">
+    </div>
+    <div class="form">
+    <form action="#" method="post" class="position-form">
+        <fieldset>
+            <label for="Full-Name">Full Name: </label> 
+            <input type="text" id="Full-Name" name="Full-Name" placeholder="Enter full name" required> <br>
+            <br>
+            <label for="Email">Email: </label> 
+            <input type="email" id="Email" name="Email" placeholder="Enter email" required> <br>
+            <br>
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject" placeholder="Enter subject" required/> <br>
+            <br>
+            <label for="message">Message Input:</label>
+            <textarea name="message" id="message" rows="7" cols="60" placeholder="Please leave a message"></textarea> <br>
+            <br>
+            <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+    </div>
+</section>
+<footer>
+    <div class="footer1">
+        <div class="footer2">
+            <div class="footerlist">
+                <ul>
+                    <li><a href="../html-forms/contact-form.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-signup">
+                <h4>Sign up for our Newsletter</h4>
+                <input type="email" id="footer-email" name="email" placeholder="Enter your email address">
+                <input type="button" id="footer-submit" value="SUBMIT">
+            </div>
+            <div class="footer-connect">
+                <h4>CONNECT WITH US</h4>
+                <a href="https://www.facebook.com"><img src="../images/facebook-logo.jpg"></a>
+                <a href="https://www.twitter.com"><img src="../images/twitter-logo.jpg"></a>
+                <a href="https://www.gmail.com"><img src="../images/gmail-logo.jpg"></a>
+                <a href="https://www.youtube.com"><img src="../images/youtube-logo.jpg"></a>
+            </div>
+        </div>
+        <p id="copy">&copy;2020Careertech</p>
+    </div>
+</footer>
+</body>
+</html>
