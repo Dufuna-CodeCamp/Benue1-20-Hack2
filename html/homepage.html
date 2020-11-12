@@ -8,10 +8,8 @@
 </head>
 <body>
 <header>
-    <nav>
-        <div>
-            <img src="../images/career_tech_logo.jpeg" alt="">
-        </div>
+    <nav class="nav">
+    <img src="../images/career_tech_logo.jpeg" class="logo">
         <ul>
             <li><a href="../html/homepage.html">Home</a></li>
             <li><a href="../html-forms/waitlist.html">WaitList</a></li>
@@ -19,14 +17,14 @@
         </ul>
     </nav>
 </header>
-    <section>
-        <div>
+    <section class="content">
+        <div class="quote">
             <q>Technology like art is a souring exercise of the human imagnation</q>
             <p> &#8212;Daniel Bell</p>
         </div>
-        <div>
+        <div class="cont-box">
             <h3>Technology Career Paths</h3>
-            <div>
+            <div class="skills">
                 <div>
                     <img src="../images/web_developer.png" alt="">
                     <p><a href="../html/web-developer.html"> Web Developer</a></p>
@@ -53,27 +51,36 @@
                 </div>
             </div>
         </div>
-        <div>
+        <div class="interest">
             <span>Interested in an Information session?</span>
             <button type="submit">Waitlist</button>
         </div>
     </section>
     <footer>
-        <div>
-            <div>
-                <img src="../images/facebook-logo.jpg" alt="">
-                <img src="../images/twitter-logo.jpg" alt="">
-                <img src="../images/gmail-logo.jpg" alt="">
-                <img src="../images/youtube-logo.jpg" alt="">
+    <div class="footer1">
+        <div class="footer2">
+            <div class="footerlist">
+                <ul>
+                    <li><a href="../html-forms/contact-form.html">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-signup">
+                <h4>Sign up for our Newsletter</h4>
+                <input type="email" id="footer-email" name="email" placeholder="Enter your email address">
+                <input type="button" id="footer-submit" value="SUBMIT">
+            </div>
+            <div class="footer-connect">
+                <h4>CONNECT WITH US</h4>
+                <a href="https://www.facebook.com"><img src="../images/facebook-logo.jpg"></a>
+                <a href="https://www.twitter.com"><img src="../images/twitter-logo.jpg"></a>
+                <a href="https://www.gmail.com"><img src="../images/gmail-logo.jpg"></a>
+                <a href="https://www.youtube.com"><img src="../images/youtube-logo.jpg"></a>
             </div>
         </div>
-        <p>Contact Us</p>
-        <div>
-            <p>Sign up for our Newsletter</p>
-            <input type="text" class="enter-email" placeholder="Enter your email address">
-            <button type="submit">SUBMIT</button>
-        </div>
-        <p>&copy;2020Careertech</p>
-    </footer>
+        <p id="copy">&copy;2020Careertech</p>
+    </div>
+</footer>
 </body>
 </html>
